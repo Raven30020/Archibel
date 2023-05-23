@@ -1,21 +1,66 @@
 .navbar {
-    background: #27f5b7! important;
+    background: #4E6C50! important;
 }
 main{
-    text-align: left;
-    margin-left: 2.5%;
-    margin-bottom: 5%;
-    margin-top: 3%;
+  margin: 5rem;
 }
 #p1 {
     text-align: center;
 }
-header, h1,h2,h3 {
+header, h1,h2,h3,h4,h5,h6 {
     font-family: 'Philosopher', sans-serif;
 }
 
+i {
+    margin-left: 650px;
+}
 
+  /* --- HEADER --- */
+/*header{
+  background: url(../Images/ouvriers.png); center center no repeat
+}*/
+#header1 {
+  background: #fff url(../Images/tour_babel2.png) center center no-repeat;
+  background-size: cover;
 
- 
+  height: 100vh;
+  width: 100vw;
 
- 
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  
+  /* A refaire
+  max-width: 2000px;
+  max-height: 961px;
+  min-width: 800px;
+  min-height: 1050px;
+  */
+}
+
+#header-title h1 {
+  color: #fff;
+  font-size: 550%;
+}
+
+#header-title h4 {
+  color: #fff;
+  font-size: 250%;
+}
+
+  /* --- IMAGES CONTAINER --- */
+
+  .row {
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .col-md-3 {
+  background-color: #cac8c8;
+  padding: 10px;
+
+}
