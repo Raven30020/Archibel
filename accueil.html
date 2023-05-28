@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -8,13 +8,14 @@
 
     <!-- TITRE DE LA PAGE -->
     <title>Archibel - Le jeu de société</title>
-    <!-- //TITRE DE LA PAGE -->
+
 
     <!-- DESCRIPTION DE LA PAGE -->
-    <meta name="description" content="Archibel, le jeu le plus aimé de tous">
-    <!-- //DESCRIPTION DE LA PAGE -->
+    <meta name="description" content="Archibel, le jeu le plus aimé de tous. Jeu de plateau créé par des étudiants à la HELHa de Mons.">
+
 
     <!--CHARGEMENT DES FEUILLES DE CSS-->
+    <link href="css/reset_helha.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -27,20 +28,20 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
     <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
-    <!--CHARGEMENT DES FEUILLES DE CSS-->
+
 
     <!--POLICE D'ÉCRITURE-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <!--POLICE D'ÉCRITURE-->
+
 </head>
 
 <body>
-    <header id="header1">
+    <header class="tour">
         <!--NAVBAR-->
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
             <div class="container-fluid">
                 <!--<a class="navbar-brand" href="acceuil.html">Archibel</a>-->
-                <a class="navbar-brand" href="acceuil.html">
+                <a class="navbar-brand" href="accueil.html">
                     <img src="Images/Archibel_Logo_Plan de travail 1.svg" alt="Logo Archibel">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -54,7 +55,7 @@
                             <a class="nav-link" href="index.html">Jeu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Règles.html">Règles du jeu</a>
+                            <a class="nav-link" href="regles.html">Règles du jeu</a>
                         </li>
                     </ul>
                 </div>
@@ -88,32 +89,35 @@
 
     <section class="quick-presentation">
         <div class="row text-center">
-            <div class="col-md-3">
-                <img src="Images/tour-de-babel.png" alt="Icone Tour de Babel" class="img-fluid_2">
+            <div class="col-md-4">
+                <img src="Images/tour-de-babel.png" alt="Icone Tour de Babel" class="img-fluid">
 
                 <p>Construisez la plus haute tour de Babel et atteignez le dieu !</p>
 
             </div>
 
-            <div class="col-md-3">
-                <img src="Images/muscles.png" alt="Icone Muscle" class="img-fluid_2">
+            <div class="col-md-4">
+                <img src="Images/muscles.png" alt="Icone Muscle" class="img-fluid">
 
                 <p>Dieu est en colère ! Renforcez votre tour afin de la protéger des attaques de dieu !</p>
 
             </div>
 
-            <div class="col-md-3">
-                <img src="Images/etoile.png" alt="Icone_Etoile" class="img-fluid_2">
+            <div class="col-md-4">
+                <img src="Images/etoile.png" alt="Icone_Etoile" class="img-fluid">
 
                 <p>Collectez les points durant votre construction et devenez maître du jeu ! </p>
             </div>
         </div>
     </section>
 
+    <!-- CHARGEMENT DES SCRIPTS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.4.min.js"></script>
     <script src="js/lightbox.js"></script>
     <script src="js/messcripts.js"></script>
 
+    
 </body>
 
 </html>

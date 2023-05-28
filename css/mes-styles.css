@@ -1,3 +1,6 @@
+header, h1,h2,h3,h4,h5,h6 {
+  font-family: 'Philosopher', sans-serif;
+}
 .navbar {
    background: #4E6C50! important;
 }
@@ -15,12 +18,10 @@ main{
   margin: 5rem;
   margin-left: 3%;
 }
-#p1 {
+.centre {
     text-align: center;
 }
-header, h1,h2,h3,h4,h5,h6 {
-    font-family: 'Philosopher', sans-serif;
-}
+
 
 i {
     margin-left: 650px;
@@ -30,7 +31,7 @@ i {
 /*header{
   background: url(../Images/ouvriers.png); center center no repeat
 }*/
-#header1 {
+.tour {
   background: #fff url(../Images/tour_babel2.png) center center no-repeat;
   background-size: cover;
 
@@ -77,33 +78,12 @@ i {
   color: #fff;
   font-size: 250%;
 }
-
-  /* --- IMAGES CONTAINER --- */
-
-.row {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
- }
- 
-/*Problème de padding pour les 3 rectangles de la page d'acceuil !*/
- .col-md-3 {
-  background-color: #86a592;
+.encadres {
+  background-color: #4E6C50;
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 2rem;
 }
-/*Problème de padding pour les 3 rectangles de la page d'acceuil !*/
-
-.img-fluid {
-  scale: 10rem;
-}
-
-.img-fluid_2{
-  scale: 30%;
-}
-
 body{
   background: #c7d8c4;
 }

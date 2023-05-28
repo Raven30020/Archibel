@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TITRE DE LA PAGE -->
+    <title>Archibel - Le jeu de société</title>
+
+
+    <!--DESCRIPTION DE LA PAGE-->
+    <meta name="description" content="Archibel, le jeu le plus aimé de tous">
+
+    <!--CHARGEMENT DES FEUILLES DE CSS-->
+    <link href="css/reset_helha.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mes-styles.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
+
+
+    <!--POLICE D'ÉCRITURE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+</head>
+
+<body>
+    <header>
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+            <div class="container-fluid">
+                <!--<a class="navbar-brand" href="acceuil.html">Archibel</a>-->
+                <a class="navbar-brand" href="accueil.html">
+                    <img src="Images/Archibel_Logo_Plan de travail 1.svg" alt="Logo Archibel">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Jeu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="regles.html">Règles du jeu</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h2>But du jeu</h2>
+        <p>Incarnez un architecte babylonien du 7e siècle avant J-C travaillant pour le Roi,afin de construire la plus haute tour possible pour qu’elle devienne la Tour de     Babel. 
+            <br>Créez ainsi votre propre tour grâce à
+            différents éléments de constructions en prenant garde à les placer stratégiquement pour faire face à la
+            colère de notre Dieu. <br>Récupérez les différents points bonus pour faire grimper le facteur de
+            magnificence de votre tour.</p>
+
+
+        <h3>Nombre de joueurs</h3>
+        <p>1 à 4 joueurs</p>
+
+        <h2>Matériel</h2>
+        <p>
+            <li>Plateaux individuels</li>
+            <li>24 cartes “Colère de Dieu”</li>
+            <li>6 dés de couleurs avec des symboles (2 dés noirs “matériaux”, 3 dés blancs “construction”, 1 dé rouge “don du Dieu”) </li>
+            <li>4 feutres effaçables</li>
+        </p>
+
+        <h4> Plateaux individuels</h4>
+        <div class="container">
+            <div class="col-md-4">
+                <div class="encadres">
+                <a href="Images/Artboard_2.png" data-lightbox="plateau"> <img src="Images/Artboard_2.png"
+                        alt="Plateau individuel" class="img-fluid">
+                </a>
+                <h6 class="my-3">Plateau individuel</h6>
+            </div>
+            </div>
+        </div>
+        <h3>Disposition du “Plateau individuel”</h3>
+        <p> <ul><li>Sur le plateau il y a :
+            <ul> <li>Les coordonées du terrains</li>
+            <li>Cases points de magnificences</li>
+            <li>Des cases fisurées</li>
+            <li>Un terrain divisé en quatre zones</li></ul>
+            <li>Un indicateur d'années </li>
+            <li>Une case score</li>
+            <li>Un tableau servant à économmiser des matériaux</li>
+            <li>Un tableau servant à la collection des ornements</li>
+            <li>Les protections qu'il est possible de mettre</li></ul>
+        </p>
+
+
+        <h4>
+            <bold>Cartes "Colère de Dieu"</bold>
+        </h4>
+        <p>Les joueurs doivent piocher une carte lorsque l’un d'entre eux aura atteint une Colère de Dieu. Si plusieurs joueurs ont atteint une Colère de Dieu, ils piochent leur carte dans le sens horloger.</p>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="encadres">
+                <a href="Images/bourrasque.png" data-lightbox="cartes">
+                <img src="Images/bourrasque.png" alt="Bourrasque" class="img-fluid">
+                </a>
+
+                <h6 class="my-3">Bourrasque</h6>
+                <p>Cette carte va détruire les deux cases les plus hautes du côté droit ou gauche de la tour. Aucune protection ne protège de cette carte, hormis dans la zone de la bénédiction de Dieu..</p>
+            </div>
+        </div>
+
+            <div class="col-md-4">
+                <div class="encadres">
+                <a href="Images/tremblement.png" data-lightbox="cartes">
+                    <img src="Images/tremblement.png" alt="Tremblement de terre" class="img-fluid">
+                </a>
+
+                <h6 class="my-3">Tremblement de terre</h6>
+                <p>Cette carte va détruire les 8 cases tout autour des cases déjà fragilisées. Pour éviter la destruction de toutes ces cases, il faut placer un ouvrier sur la fissure ou posséder une bénédiction dans cette zone.</p>
+            </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="encadres">
+                <a href="Images/foudre.png" data-lightbox="cartes"> <img src="Images/foudre.png" alt="Foudre"
+                        class="img-fluid">
+                </a>
+                <h6 class="my-3">Foudre</h6>
+                <p>Cette carte va détruire les deux cases les plus hautes de la ligne prédéfinie par la carte. Pour empêcher la destruction, il faut placer un paratonnerre ou posséder une bénédiction dans cette zone. </p>
+            </div>
+            </div>
+        </div>
+
+        <h2>Ornements</h2>
+        <p>Les ornements sont collectionnables grâce aux dés. Une ligne complétée vaut 15 points, 20 points ou encore 25 points. </p>
+
+        <h2>Protections</h2>
+        <p>Les protections sont très utiles pour garantir une tour stable et haute. <br>Il existe plusieurs types de protections :
+            <ul>
+                <li>Étais : Cette protection coûte 2 de matériaux. Les étais nous permettent de pouvoir poser un bloc au-dessus du vide en mettant un étai en dessous de ce dernier. Les étais peuvent casser à cause des bourrasques, des tremblements de terre ou encore des foudres.</li>
+                <li>Ouvriers : Cette protection coûte 3 de matériaux. Les ouvriers se placent sur les cases fissurées afin de leur donner de la solidité. Les ouvriers peuvent mourir après une bourrasque, un tremblement de terre ou encore une foudre.</li>
+                <li>Bénédictions : Cette protection coûte 5 de matériaux. La bénédiction protège de toutes les Colères de Dieu dans la zone bénie. Pour pouvoir acheter la bénédiction, il faut atteindre la ligne délimitant les zones (lignes rouges) et s’est pris au moins une fois la Colère de Dieu de cette zone. Une fois acheté, il n’est pas possible de perdre ou d’échanger sa bénédiction contre des matériaux.</li>
+                <li>Paratonnerre : Cette protection coûte 6 de matériaux. Le paratonnerre a pour but de protéger la tour de la foudre uniquement. Une fois acheté, rien ne peut le détruire et il est impossible de le déplacer ou de le retirer contre des matériaux.</li>
+            </ul>
+        </p>
+        <h2>Préparation du jeu</h2>
+        <p>Avant de jouer à Archibel, vous devez préparer le matériel nécessaire au jeu. <br>Sortez les cartes,
+            mélangez-les et positionnez-les au centre de la table. Placez tous les dés au centre de la table.<br>
+            Chaque
+            joueur dispose d'un plateau individuel et d'un feutre effaçable pour jouer.</p>
+
+        <h2>Démarrer une partie</h2>
+        <p>Après avoir préparé le matériel, il est temps de commencer les travaux !<br>Une manche se fait dans le
+            sens
+            horlogique et débute par le joueur le plus âgé.</p>
+
+
+        <p>Pour commencer, le 1er joueur lance tous les dés. Il pourra en choisir 2 parmi ces 6 dés, car il est le joueur “lanceur”. Le joueur suivant doit choisir 1 parmi les 4 autres dés restants. Et cetera jusqu’au dernier joueur du tour. Ceci est fait pour que le dernier joueur puisse toujours avoir un choix parmi les 2 derniers dés.</p>
+
+        <p>Selon le résultat des dés et les choix du joueur, celui-ci peut décider de placer différents éléments sur le plateau, récupérer des matériaux pour acheter divers outils ou ornements ainsi qu’obtenir des dons des dieux.</p>
+
+        <p>À la fin du tour, une fois que tout le monde a pu lancer et choisir son dé, la personne à gauche du joueur lanceur sera le nouveau joueur lanceur pour le prochain tour.</p>
+
+        <h5>Le placement des éléments de construction</h5>
+        <p>Pour construire votre tour, vous aurez besoin d’éléments de construction. Il en existe 6 différents :
+        </p>
+
+        <p>
+            <ul>
+            <li>Bloc 1 = 1 de hauteur et 1 de largeur</li>
+            <li>Bloc 2 = 1 de hauteur et 2 de largeur</li>
+            <li>Bloc 3 = 1 de hauteur et 3 de largeur</li>
+            <li>Bloc 4 = 2 de hauteur et 1 de largeur</li>
+            <li>Bloc 5 = 2 de hauteur et 2 de largeur</li>
+            <li>Bloc 6 = 3 de hauteur et 1 de largeur</li>
+            </ul> 
+        </p>
+
+        <p>Comme dit précédemment, vous pourrez placer en fonction des résultats de vos dés choisis, les blocs bâtiments listés ci-dessus.</p>
+
+        <p>Vous aurez sûrement remarqué que sur la grille de terrain se trouvait des cases points de magnificences. Si un des blocs que vous venez de poser recouvre l’une des cases, vous activez son effet : soit 2 points, 5 points, 10 points, 15 points, 20 points ou encore 25 points.</p>
+
+        <h2>Partie solo</h2>
+        <p>Le jeu peut également se jouer seul. Pour cela, le joueur lance tous les dés. Il en choisit 2 puis relance les dés qu’il n’a pas choisis. Dans ces nouveaux dés, il n’en choisit qu’un et ainsi de suite pour les dés restants.Il n’y a qu’au premier lancer du tour que le joueur choisit 2 dès. Une fois que le joueur a choisi tous les dés, il les relance tous et recommence la manche comme précédemment.
+        </p>
+
+        <h2>Fin de tour</h2>
+        <p>Le tour se finit lorsque c’est au joueur de départ de relancer les 6 dés. A la fin de chaque tour, les joueurs indiquent un croix dans l'indicateur d’années pour permettre à chaque joueur de suivre l’avancée du jeu.
+        </p>
+
+        <h2>Suite de la partie</h2>
+        <p>Les joueurs ont le droit de ne pas placer leurs constructions s’ils le désirent. S’ils atteignent une Colère de Dieu, ils doivent piocher une carte lorsque tous les joueurs ont terminé de jouer. Si plusieurs joueurs atteignent une Colère de Dieu pendant le même tour, c’est dans l’ordre du jeu que les joueurs piochent leur carte.</p>
+
+        <h2>Fin du jeu </h2>
+        <p>Le jeu se termine lorsque tous les 6 tours sont terminés. Le joueur avec le plus haut score de construction gagne le jeu. Pour calculer son score de construction, il suffit d’additionner : les points de magnificences atteint durant le jeu, le chiffre de la ligne atteint par la plus haute case de la tour, les ornements, le nombre d’ouvriers , paratonnerre et d’étais placés sur le plateau. Un ouvrier,paratonnerre et un étai valent chacun un point, plus vous avez d’ouvrier ou d’étais, plus vous avez de points.</p>
+
+        <div>
+            <iframe width="560" height="315" src="" title="Youtube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+
+    </main>
+
+    <!-- CHARGEMENT DES SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/messcripts.js"></script>
+    <!-- //CHARGEMENT DES SCRIPTS -->
+
+</body>
+
+</html>
