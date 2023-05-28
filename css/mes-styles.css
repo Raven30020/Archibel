@@ -1,6 +1,16 @@
 .navbar {
-    background: #4E6C50! important;
+   background: #4E6C50! important;
 }
+
+.navbar-brand {
+  width: 5.5rem;
+}
+.navbar-brand:hover{
+  transition: 2ms;
+  transition:ease-in-out;
+  /*Faire une transition du logo Archibel noir vers logo Archibel Blanc en hover ?*/
+}
+
 main{
   margin: 5rem;
   margin-left: 3%;
@@ -40,9 +50,27 @@ i {
   */
 }
 
-#header-title h1 {
-  color: #fff;
-  font-size: 550%;
+.flex1 {
+  display:flex;
+  justify-content: space-between;
+}
+
+.row-center {
+  flex-flow: row nowrap;
+  justify-content:space-between;
+  align-items:center;
+  margin-top: 18%;
+}
+
+.mockup_jeu {
+  width: 30rem;
+  padding: 10%;
+  margin-top:10%;
+}
+
+.head-logo {
+  width: 100vh;
+  text-align: center;
 }
 
 #header-title h4 {
@@ -52,16 +80,36 @@ i {
 
   /* --- IMAGES CONTAINER --- */
 
-  .row {
-
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center;
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
  }
-
+ 
+/*Problème de padding pour les 3 rectangles de la page d'acceuil !*/
  .col-md-3 {
-  background-color: #cac8c8;
+  background-color: #86a592;
   padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 2rem;
+}
+/*Problème de padding pour les 3 rectangles de la page d'acceuil !*/
 
+.img-fluid {
+  scale: 10rem;
+}
+
+.img-fluid_2{
+  scale: 30%;
+}
+
+body{
+  background: #c7d8c4;
+}
+
+.quick-presentation{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top:10%;
 }
