@@ -8,11 +8,6 @@ header, h1,h2,h3,h4,h5,h6 {
 .navbar-brand {
   width: 5.5rem;
 }
-.navbar-brand:hover{
-  transition: 2ms;
-  transition:ease-in-out;
-  /*Faire une transition du logo Archibel noir vers logo Archibel Blanc en hover ?*/
-}
 
 main{
   margin: 5rem;
@@ -26,28 +21,16 @@ i {
     margin-left: 650px;
 }
 
-  /* --- HEADER --- */
-/*header{
-  background: url(../Images/ouvriers.png); center center no repeat
-}*/
 .tour {
   background: #fff url(../Images/tour_babel2.png) center center no-repeat;
   background-size: cover;
-
   height: 100vh;
   width: 100vw;
-
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
   align-items: center;
-  
-  /* A refaire
-  max-width: 2000px;
-  max-height: 961px;
-  min-width: 800px;
-  min-height: 1050px;
-  */
+
 }
 
 .boite {
@@ -55,6 +38,14 @@ i {
   justify-content: space-between;
 }
 
+.ouvrier{
+  height: 10vh;
+  width: 10vw;
+  margin-bottom: 10%;
+  margin-left: 33%;
+}
+ 
+}
 .row-center {
   flex-flow: row nowrap;
   justify-content:space-between;
@@ -104,7 +95,6 @@ body{
 .logos{
   height: 10vh;
   width: 10vw;
-
   margin-bottom: 10%;
   margin-left: 44%;
 }
