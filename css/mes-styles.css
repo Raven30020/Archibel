@@ -22,7 +22,6 @@ main{
     text-align: center;
 }
 
-
 i {
     margin-left: 650px;
 }
@@ -51,7 +50,7 @@ i {
   */
 }
 
-.flex1 {
+.boite {
   display:flex;
   justify-content: space-between;
 }
@@ -78,6 +77,14 @@ i {
   color: #fff;
   font-size: 250%;
 }
+
+#clickMe {
+  color:white;
+  background-color: #4E6C50;
+  font-weight:bold;
+  padding:10px;
+}
+
 .encadres {
   background-color: #4E6C50;
   padding: 10px;
@@ -92,4 +99,24 @@ body{
   margin-left: 10%;
   margin-right: 10%;
   margin-top:10%;
+}
+
+.logos{
+  height: 10vh;
+  width: 10vw;
+
+  margin-bottom: 10%;
+  margin-left: 44%;
+}
+
+.contact{
+  text-align: center;
+  margin-top: 10%;
+}
+
+footer{
+  background: #4E6C50! important;
+  padding: 1rem 0 0.5rem;
+  text-align: center;
+  
 }

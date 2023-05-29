@@ -1,3 +1,15 @@
+var clickMe = document.getElementById('clickMe');
+
+clickMe.addEventListener('click',function(){
+    alert("Sorry, out of stock :(");
+  }, false);
+  function fonctionClick(){
+    alert("Back to previous page.");
+ }
+clickMe.addEventListener('click',fonctionClick, false);
+
+
+
 const offset = 100;
 const offsetDeroulement = 200;
 
